@@ -54,6 +54,7 @@ console.log(name);
 console.log(y);
 /* y = 10;
 console.log(y); */
+// per la verifica della costante de-commentare riga 55-56 e guardare errore nella console
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
