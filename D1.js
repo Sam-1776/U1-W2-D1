@@ -14,18 +14,16 @@ REGOLE
 /* SCRIVI QUI LA TUA RISPOSTA */
 // String = tipo che si usa per le variabili che devono contenere parole che sono definite tra apici
 // Number = tipo che si usa per le variabili che devono contenere numeri non necessitano apici
-// Boolean = unico tipo che ha solo due valori true e false e si usano per i controlli 
-// Undefined = indica che una variabile non ha assegnata nessun valore 
-// Null = tipo per una variabile volutamente senza valore 
+// Boolean = unico tipo che ha solo due valori true e false e si usano per i controlli
+// Undefined = indica che una variabile non ha assegnata nessun valore
+// Null = tipo per una variabile volutamente inizializzata senza valore successivamente aggiunto
 // Symbol = tipo che indica un unico identificatore che puo essere usato i vari modi
-
-
 
 /* ESERCIZIO 2
 Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa. */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const name = "Samuele";
+let name = "Samuele";
 console.log(name);
 
 /* ESERCIZIO 3
@@ -50,8 +48,13 @@ console.log(x);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-// let name = 'Simeone';
+name = "Simeone";
+const y = 5;
 console.log(name);
+console.log(y);
+/* y = 10;
+console.log(y); */
+
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
@@ -67,8 +70,8 @@ console.log(sottrazione);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let name1 = 'jhone';
-let name2 = 'Jhone';
+let name1 = "jhone";
+let name2 = "Jhone";
 console.log(name1 === name2);
 name2 = name2.toLowerCase();
 console.log(name1 === name2);
