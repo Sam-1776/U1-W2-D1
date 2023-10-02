@@ -73,5 +73,6 @@ console.log(sottrazione);
 let name1 = "jhone";
 let name2 = "Jhone";
 console.log(name1 === name2);
+name1 = name1.toLowerCase();
 name2 = name2.toLowerCase();
 console.log(name1 === name2);
